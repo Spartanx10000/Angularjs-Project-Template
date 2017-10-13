@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AngularJS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/loading-bar.min.css" />
+    <link rel="stylesheet" href="styles/angular-growl.min.css">
+    <link rel="stylesheet" href="styles/toaster.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body ng-app="angularEjemploApp">
+    <div id="loading-bar-container"></div>
+    <!-- Add your site or application content here -->
+    <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#!/">Angular Template</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li><a href="#!">Home</a></li>
+              <li><a ng-href="#!/notifications">Notifications</a></li>
+              <li><a ng-href="#!/pagination">Pagination</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p><span class="glyphicon glyphicon-education"></span> Code licensed under the The MIT License</p>
+      </div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <!--script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script-->
+
+    <script src="scripts/jquery-3.2.1.js"></script>
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/angular-animate.js"></script>
+    <script src="scripts/angular-cookies.js"></script>
+    <script src="scripts/angular-resource.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="scripts/angular-sanitize.js"></script>
+    <script src="scripts/angular-touch.js"></script>
+    <script src="scripts/loading-bar.min.js"></script>
+    <script src="scripts/dirPagination.js"></script>
+    <script src="scripts/angular-growl.min.js"></script>
+    <script src="scripts/toaster.js"></script>
+    
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/notifications.js"></script>
+    <script src="scripts/controllers/pagination.js"></script>
+    
+        
+</body>
+</html>

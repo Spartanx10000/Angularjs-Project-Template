@@ -1,0 +1,74 @@
+
+<h3>This is the notifications view.</h3>
+<hr>
+<h4>Notifications with growl</h4>
+<!-- growl -->
+<div growl></div>
+<div class="panel panel-default">
+  <div class="panel-heading">Notifications types</div>
+  <div class="panel-body">
+  	  	<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  		<div class="btn-group" role="group">
+   			<button ng-click="Success()" type="button" class="btn btn-success">Success</button>
+  		</div>
+  	   	<div class="btn-group" role="group">
+    		<button ng-click="Error()" type="button" class="btn btn-danger">Danger</button>
+  		</div>
+  		<div class="btn-group" role="group">
+    		<button ng-click="Warning()" type="button" class="btn btn-warning">Warning</button>
+  		</div>
+  		<div class="btn-group" role="group">
+   		 	<button ng-click="Info()" type="button" class="btn btn-info">Info</button>
+  		</div>
+  		<div class="btn-group" role="group">
+    		<button ng-click="Show()" type="button" class="btn btn-primary">All</button>
+  		</div>
+		</div> 
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">Tutorial</div>
+  <div class="panel-body" align="center">
+  <iframe  width="624" height="377" src="https://www.youtube.com/embed/L1vGG3UVULU" frameborder="0" allowfullscreen></iframe>
+  <br>
+  <p>Link to the source page:
+  <a href="https://ciphertrick.com/2015/04/05/easy-notifications-in-angularjs-applications/">ciphertrick.com</a>
+  </p>
+  </div>
+</div>
+<hr>
+<h4>Notifications with toaster</h4>
+<!-- toaster -->
+<toaster-container></toaster-container>
+<div class="panel panel-default">
+  <div class="panel-heading">Notifications types</div>
+  <div class="panel-body">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+      <div class="btn-group" role="group">
+        <button ng-click="PopSuccess()" type="button" class="btn btn-success">Success</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button ng-click="PopError()" type="button" class="btn btn-danger">Danger</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button ng-click="PopWarning()" type="button" class="btn btn-warning">Warning</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button ng-click="PopInfo()" type="button" class="btn btn-info">Info</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button ng-click="PopShow()" type="button" class="btn btn-primary">All</button>
+      </div>
+    </div> 
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">Tutorial</div>
+  <div class="panel-body" align="center">
+  <iframe width="624" height="377" src="https://www.youtube.com/embed/Z1FKSqAG4OM" frameborder="0" allowfullscreen></iframe>
+  <br>
+  <p>Link to the source page:
+  <a href="https://github.com/jirikavi/AngularJS-Toaster">AngularJS-Toaster</a>
+  </p>
+  </div>
+</div>
